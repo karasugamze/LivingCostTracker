@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LivingCostTracker</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <form id="apiForm" >
+            <div class="rowImg">
+                    <img src="/logo.jpeg" alt=""> <h2>LCT</h2>
+            </div>           
+                <p class="info1">LivingCostTracker'a Hoşgeldiniz!</p>
+                <p class="info2"> Lütfen hesaplanmasını istediğiniz ili giriniz.</p>
+                <div class="search">
+                    <input type="text" id="sehir" placeholder="İlk şehri girin">
+                </div>
+                <div class="search2">
+                    <input type="text2" id="sehir2" placeholder="İkinci şehri girin">
+                    <button type="submit2">Ara</button>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="tableFixHead" style="display: none;">
+            <div class="card">
+                <div id="hata" class="p-5 m-5 bg-danger-subtle text-emphasis-danger"></div>
+            <table class="table" >
+                <thead>
+                    <tr>
+                        <th>Özellik</th>
+                        <th>Fiyat (TL) </th>
+                    </tr>
+                </thead>
+                <tbody id="apiResult">
+                    <tr></tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="tableFixHead2" style="display: none;">
+            <div class="card2">
+                <div id="hata2" class="p-5 m-5 bg-danger-subtle text-emphasis-danger"></div>
+            <table class="table2" >
+                <thead>
+                    <tr>
+                        <th>Özellik</th>
+                        <th>Fiyat (TL) </th>
+                    </tr>
+                </thead>
+                <tbody id="apiResult2">
+                    <tr></tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+        </div>   
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
