@@ -1,4 +1,4 @@
-![](logo.jpeg)
+
 # Living Cost Tracker
 It calculates the average cost of living in a city and compares the cost between different cities.
 
