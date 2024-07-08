@@ -8,10 +8,11 @@ When we need to move to a different city for various reasons, it was initiated t
 ## Technologies Used:
 - The structure and appearance of the page were created using HTML and CSS for basic web development.
 
-- Bootstrap was used to enhance the project's style.
+- **Bootstrap:** was used to enhance the project's style.
 
-- JavaScript: JavaScript was used in the project for user interaction and API calls.
+- **JavaScript:** JavaScript was used in the project for user interaction and API calls.
 
-- RapidAPI: RapidAPI is a platform used for communicating with external APIs. It was used in the project to fetch cost data.
+- **RapidAPI:** RapidAPI is a platform used for communicating with external APIs. It was used in the project to fetch cost data.
 
+However, the data from RapidAPI was not up-to-date. Since obtaining current APIs was quite costly, we completed the project using outdated data.
 
